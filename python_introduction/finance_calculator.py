@@ -4,7 +4,7 @@ monthlyExpenses = input("Enter your total monthly expenses: ")
 
 #Calculions
 monthlySavings = int(monthlyIncome) - int(monthlyExpenses)
-projectedSavings = monthlySavings * 12 + (monthlySavings * 12 * 0.05)
+projectedSavings = int(monthlySavings * 12 + (monthlySavings * 12 * 0.05))
 
 #printing results
 print("Your monthly savings are $", monthlySavings, ".")
